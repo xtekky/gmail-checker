@@ -21,7 +21,7 @@ class Checker:
     
             else:
                 self.hits += 1
-                print(email, file=self.file)
+                print(email); print(email, file=self.file)
         except:
             self.hits += 1
             print(email, file=self.file)
